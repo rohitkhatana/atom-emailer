@@ -3,8 +3,7 @@
   "main": "./lib/atom-emailer",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-emailer:toggle"
   },
@@ -14,5 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "lodash": "^4.13.1",
+    "nodemailer": "2.3"
   }
 }
