@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "atom-emailer:toggle"
+    "ctrl-alt-m": "atom-emailer:toggle"
   }
 }
