@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-emailer",
+        "command": "atom-emailer:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-emailer",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-emailer:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
